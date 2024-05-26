@@ -22,7 +22,7 @@ class ScatteringFlareDataset(Dataset):
 
     def __len__(self):
 
-        return 2  #len(self.total_inputs)
+        return len(self.total_inputs)
     
     def __getitem__(self, idx):
 
